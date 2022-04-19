@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #ECEFF1;
+}
+.nav-link{
+    color: rgb(6, 70, 126);
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    height: 90vh;
+}
+.content div img{
+    height: 100%;
+    width: 100%;
+}
+.content .login{
+margin: auto;
+border-radius: 10px;
+}
+
+/*page accueil*/
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+span i{
+    width: 70px;
+    height: 70px;
+    color: #12CE81;
+}
+.plus{
+    border: 2px solid #12CE81;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -22,9 +22,9 @@
 
     <!-- content -->
     <main class="w-100">
-      <div class="mt-5 w-100" >
+      <div class="mt-2 w-100 d-flex flex-column align-items-center" >
           <h1></h1>
-        <iframe src="https://embed.lottiefiles.com/animation/102081" class="w-100 mt-4" style ="width:90%,"></iframe>
+          <img src="Assets/images/animation.gif">
           <p class="text-center fw-3 fs-4"><a href="./pages/signup.php" class="text-decoration-none">Sign up</a> to start creating your contacts list.</p>
           <p class="text-center fw-3 fs-4">Already have an account? <a href="login.php" class="text-decoration-none">Login here.</a></p>
       </div>

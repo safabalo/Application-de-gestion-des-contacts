@@ -60,18 +60,20 @@ session_start();
       </div>
       <div class="col-12 col-md-6 login">
         <div>
-          <?= $error?>
+          <p class="text-danger text-center"><?= $error?></p> 
         </div>
-        <form class="bg-white p-3 h-100 h-sm-70 " method="POST" >
+        <form class="bg-white p-3 h-100 h-sm-70 " method="POST" id="forum" >
             <h6 class="text-center fs-3 fw-bold" style="color: #12CE81">SIGN IN</h6>
             <p class="text-center mb-5">Enter your credentials to access your account</p>
             <div class="mb-2">
             <label for="user" class="form-label text-secondary">Username</label>
-            <input type="text" class="form-control" name="username" placeholder="Enter your username">
+            <input type="text" class="form-control" name="username" placeholder="Enter your username" id="username">
+            <p id="messagename class="text-danger"></p>
           </div>
           <div class="mb-4 mb-sm-2">
             <label for="Password" class="form-label text-secondary"  >Password</label>
             <input type="password" class="form-control" id="Password" name="password" placeholder="Enter your password">
+            <p id="messagepassword" class="text-danger"></p>
           </div>
           <div class="form-check form-switch mb-4 mb-sm-2">
                 <input  name="check" class="form-check-input" type="checkbox" id="ckeck">
@@ -86,5 +88,6 @@ session_start();
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     <script src="Assets/js/my-bootstrap.js"></script>
+    <script src="Assets/js/script.js"></script>
 </body>
 </html>

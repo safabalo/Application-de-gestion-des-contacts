@@ -54,8 +54,8 @@
       </div>
     </nav>
 <main>
-    <div class="w-100">
-    <iframe src="https://embed.lottiefiles.com/animation/97681" class="w-100 mt-5"></iframe>
+    <div class="w-100 d-flex justify-content-center align-items-center">
+    <img src="../Assets/images/letter.gif">
     <div>
 </main>
 </body>

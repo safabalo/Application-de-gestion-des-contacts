@@ -52,15 +52,13 @@ include('connect.php');
             $conn->bindParam(":username", $userName);
             $conn->bindParam(":password", $password);
 
-            // header('location:pages/acceil.php');
+            
             if($conn->execute()) {
                 $count= $stmt->rowCount();
                 print_r($count);
             } else {
                 echo "hello";
-                // $conn = NULL;
-                // header("location:index.php?error=stmtfailed");
-                // exit();
+                
             }
         }
         public function emptyInput(){

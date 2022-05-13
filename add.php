@@ -20,8 +20,7 @@ if (isset($_POST['submit'])) {
                         $insert = $contacte->create($contactName, $email, $phone, $address, $user_id);
 						header("location: ./pages/accueil.php");
 					}else{
-						echo "<script>alert('empty');</script>";
-						echo "<script>window.location.href = 'index.php';</script>";
+						header("location: ./index.php");
 					}
 				}
 			}
